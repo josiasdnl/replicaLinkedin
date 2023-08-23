@@ -1,0 +1,37 @@
+@import url(./reset.css);
+
+body {
+    background-color: var(--white-bg-links);
+    line-height: 1.5;
+}
+
+a {
+    color: var(--blue-bg-border-links);
+    font-weight: 600;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.main-button {
+    color: var(--white-bg-links);
+    background-color: var(--blue-bg-border-links);
+}
+
+.secondary-button {
+    background-color: transparent;
+    border: 1px solid var(--blue-bg-border-links);
+}
+
+.main-button,
+.secondary-button {
+    padding: 8px 16px;
+    border-radius: 31px;
+}
