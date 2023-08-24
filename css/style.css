@@ -1,6 +1,7 @@
 @import url(./reset.css);
 @import url(./profile-info-section.css);
 @import url(./nav-bar.css);
+@import url(./highlights.css);
 
 body {
     background-color: var(--white-bg-links);
@@ -14,6 +15,15 @@ h1 {
 
 h2 {
     font-size: 16px;
+}
+
+h3 {
+    font-size: 14px;
+}
+
+p {
+    font-size: 14px;
+    color: var(--gray-text);
 }
 
 a {
