@@ -1,0 +1,30 @@
+nav {
+    height: 76px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    padding-left: 16px;
+    padding-right: 16px;
+    background-color: var(--white-bg-links);
+    top: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0 0 10px -1px var(--gray-border);
+}
+
+.linkedin-logo img {
+    height: 30px;
+}
+
+.nav-bar ul {
+    display: flex;
+}
+
+.nav-bar li a {
+    display: list-item;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 0 8px;
+    font-weight: 400;
+}

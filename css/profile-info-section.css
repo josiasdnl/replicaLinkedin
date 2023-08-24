@@ -1,0 +1,56 @@
+section.card-user-info{
+    width: 782px;
+    margin-top: 90px;
+    border-radius: 15px;
+}
+
+.cover-image img {
+    width: min(100%, 782px);
+    height: 196px;
+    object-fit: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.profile-image img {
+    width: 130px;
+    height: 130px;
+    border: 4px solid var(--white-bg-links);
+    border-radius: 50%;
+    margin-top: -90px;
+    box-shadow: 0 0 10px var(--gray-border);
+    margin-left: 24px;
+}
+
+.user-info-wrapper {
+    display: flex;
+    padding: 24px;
+    padding-top: 70px;
+    border: 0.6px solid var(--gray-border);
+    border-radius: 0 0 15px 15px;
+    margin-top: -55px;
+
+}
+
+.description {
+    width: 60%;
+}
+
+.action-button {
+    margin-top: 16px;
+}
+
+.professional-info {
+    width: 40%;
+    display: inline;
+}
+
+.professional-info li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.professional-info h2 {
+    padding-left: 8px;
+}
